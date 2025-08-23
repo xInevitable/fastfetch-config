@@ -9,7 +9,7 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 3. [🚀 Usage](#-usage)
 4. [🎨 Customization](#-customization)
 5. [📥 Quick Download](#-quick-download)
-6. [✏️ Notes](#-notes)
+6. [✏️ Notes](#%EF%B8%8F-notes)
 
 ## ✨ Features
 
