@@ -22,27 +22,6 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
   - CPU, GPU, Memory, Disk usage
 - 🌈 **Vibrant Color Palette Display**
 
-## 👀 Preview
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/f249aabf-6850-4c45-938e-2a364c64b5ea" alt="Fastfetch-preview-linux" width="80%">
-        <br>
-        <em>Linux Preview</em>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/6f4b7f2b-989b-4f90-bd71-183dd00f0d0f" alt="Fastfetch-preview-windows" width="80%">
-        <br>
-        <em>Windows Preview</em>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ## 🛠️ Installation
 
 ### 1. Install Fastfetch:
@@ -64,6 +43,13 @@ For other systems, refer to the [official installation guide](https://github.com
 | Linux/macOS | `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
 | Windows | ```New-Item -ItemType Directory -Force -Path "$env:APPDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:APPDATA\fastfetch\config.jsonc"``` |
 
+### 3. Add ASCII art
+| System | Command |
+|:------:|:-------:|
+| Linux/macOS | `wget https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt -O ~/.config/fastfetch/logo.txt` |
+| Windows | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "C:\ProgramData\fastfetch\logo.txt```|
+
+You can also use your personal ascii art , this just has mine :) 
 ## 🚀 Usage
 
 Simply type `fastfetch` in your terminal to display your system information in a beautifully formatted layout.
@@ -83,13 +69,13 @@ For detailed customization options and syntax, refer to the [Fastfetch documenta
 For quick access to the configuration file:
 <p align="center">
   <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc">
-    <img src="https://img.shields.io/badge/⬇️ Download-config.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config.jsonc">
+    <img src="https://img.shields.io/badge/⬇️ Download-config-linux.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config-linux.jsonc">
   </a>
 </p>
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc">
-    <img src="https://img.shields.io/badge/⬇️ Download-config.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config.jsonc">
+    <img src="https://img.shields.io/badge/⬇️ Download-config-windows.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config-windows.jsonc">
   </a>
 </p>
 
