@@ -9,8 +9,8 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 3. [🛠️ Installation](#️-installation)
 4. [🚀 Usage](#-usage)
 5. [🎨 Customization](#-customization)
-6. [🔤 Font Requirement](#-font-requirement)
-7. [📥 Quick Download](#-quick-download)
+6. [📥 Quick Download](#-quick-download)
+7. [✏️ Notes](#-notes)
 
 ## ✨ Features
 
@@ -80,3 +80,7 @@ For quick access to the configuration file:
 </p>
 
 Enjoy your beautifully displayed system information! 🎉
+## ✏️ Notes
+
+I also provided Two images (one has background other doesnt)
+They are original images for ascii art
