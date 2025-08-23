@@ -68,13 +68,13 @@ For detailed customization options and syntax, refer to the [Fastfetch documenta
 For quick access to the configuration file:
 <p align="center">
   <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc">
-    <img src="https://img.shields.io/badge/⬇️ Download-config-linux.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config.jsonc">
+    <img src="https://img.shields.io/badge/⬇️" alt="Download config-linux.jsonc">
   </a>
 </p>
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc">
-    <img src="https://img.shields.io/badge/⬇️ Download-config-windows.jsonc-blue?style=for-the-badge&logo=json&logoColor=white" alt="Download config.jsonc">
+    <img src="https://img.shields.io/badge/⬇️" alt="Download config-windows.jsonc">
   </a>
 </p>
 
