@@ -5,12 +5,11 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 ## 📋 Table of Contents
 
 1. [✨ Features](#-features)
-2. [👀 Preview](#-preview)
-3. [🛠️ Installation](#️-installation)
-4. [🚀 Usage](#-usage)
-5. [🎨 Customization](#-customization)
-6. [📥 Quick Download](#-quick-download)
-7. [✏️ Notes](#-notes)
+2. [🛠️ Installation](#️-installation)
+3. [🚀 Usage](#-usage)
+4. [🎨 Customization](#-customization)
+5. [📥 Quick Download](#-quick-download)
+6. [✏️ Notes](#-notes)
 
 ## ✨ Features
 
