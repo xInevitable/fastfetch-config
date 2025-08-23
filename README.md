@@ -15,11 +15,11 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 ## ✨ Features
 
 - 🖥️ **Comprehensive System Information**
-  - OS, Kernel, Uptime, Packages
+  - OS, Kernel, Uptime, Packages, Local IP, Public IP,...
 - 🎨 **Detailed Desktop Environment Showcase**
-  - DE, WM, Theme, Resolution, Shell, Font
+  - DE, WM, Theme, Resolution, Shell, Font,...
 - 💻 **In-depth Hardware Specifications**
-  - CPU, GPU, Memory, Disk usage
+  - CPU, GPU, Memory, Disk usage,...
 - 🌈 **Vibrant Color Palette Display**
 
 ## 🛠️ Installation
