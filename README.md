@@ -57,7 +57,7 @@ Simply type `fastfetch` in your terminal to display your system information in a
 
 To tailor the display to your preferences:
 
-1. Open the `config.jsonc` file in your preferred text editor.
+1. Open the `config-linux.jsonc/config-windows.jsonc` file in your preferred text editor.
 2. Modify the settings according to your needs.
 3. Save the file and run `fastfetch` to see your changes.
 
