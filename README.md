@@ -38,12 +38,12 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
                                                                       APP INSTALLER MSIX [From Microsoft]
                                                               </a> 
 </p> 
-      
+      <p align="center" style="color:red; font-size:16px;> USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL </p>
+        
 For other systems, refer to the [official installation guide](https://github.com/fastfetch-cli/fastfetch#installation).
 
 ### 2. Set up the configuration:
 
-<p align="center" style="color:red; font-size:16px;> USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL </p>
 
 
 
