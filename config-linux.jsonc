@@ -133,7 +133,7 @@
     },
     {
       "type": "sound",
-      "key": "{#separator}│  {#keys}• BIOS"
+      "key": "{#separator}│  {#keys}• Sound"
     },
     {
       "type": "disk",
