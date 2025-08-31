@@ -45,6 +45,8 @@ For other systems, refer to the [official installation guide](https://github.com
 
 <p align="center" style="color:red; font-size:16px;> USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL </p>
 
+
+
 | System | Command |
 |:------:|:-------:|
 | Linux/macOS (current user)| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
