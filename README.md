@@ -33,7 +33,10 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 | Windows (Winget) | `winget install fastfetch` |
 
 <p align="center" style="color:yellow; >
-    NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> APP INSTALLER MSIX (From Microsoft) </a> 
+  
+    NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
+                                                                      APP INSTALLER MSIX [From Microsoft]
+                                                              </a> 
 </p> 
       
 For other systems, refer to the [official installation guide](https://github.com/fastfetch-cli/fastfetch#installation).
