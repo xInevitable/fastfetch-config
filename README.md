@@ -24,7 +24,6 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 ## 🛠️ Installation
 
 ### 1. Install Fastfetch:
-
 | System | Command |
 |:------:|:-------:|
 | Arch Linux | `sudo pacman -S fastfetch` |
@@ -33,11 +32,15 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 | Windows (Scoop) | `scoop install fastfetch` |
 | Windows (Winget) | `winget install fastfetch` |
 
+<p align="center" style="color:yellow ; font-size:16px;>
+    NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> APP INSTALLER MSIX (From Microsoft) </a> 
+</p> 
+      
 For other systems, refer to the [official installation guide](https://github.com/fastfetch-cli/fastfetch#installation).
 
 ### 2. Set up the configuration:
 
-<font color="red">NOTE: TERMINAL FOR WINDOWS : POWERSHELL (CMD WILL NOT WORK FOR INSTALL) (AFTER INSTALL CMD CAN BE USED FOR FASTFETCH)</font>
+<p align="center" style="color:red; font-size:16px;> USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL </p>
 
 | System | Command |
 |:------:|:-------:|
