@@ -133,7 +133,7 @@
     },
     {
       "type": "sound",
-      "key": "{#separator}│  {#keys}• BIOS"
+      "key": "{#separator}│  {#keys}• Sound"
     },
     {
       "type": "disk",
@@ -142,7 +142,7 @@
     },
     {
       "type": "battery",
-      "key": "{#separator}│  {#keys}• Battery (Dell WV3K824)"
+      "key": "{#separator}│  {#keys}• Battery"
     },
     {
       "type": "custom",
