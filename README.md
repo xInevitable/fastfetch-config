@@ -37,11 +37,14 @@ For other systems, refer to the [official installation guide](https://github.com
 
 ### 2. Set up the configuration:
 
+<font color="red">NOTE: TERMINAL FOR WINDOWS : POWERSHELL (CMD WILL NOT WORK FOR INSTALL) (AFTER INSTALL CMD CAN BE USED FOR FASTFETCH)</font>
+
 | System | Command |
 |:------:|:-------:|
 | Linux/macOS (current user)| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
 | Windows (current user) | ```New-Item -ItemType Directory -Force -Path "$env:APPDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:APPDATA\fastfetch\config.jsonc"``` |
 | Windows (all users {may need admin rights} )| ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
+
 
 NOTE(windows): If both exist Current User config will override the all user one.
 
