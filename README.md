@@ -32,19 +32,19 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 | Windows (Scoop) | `scoop install fastfetch` |
 | Windows (Winget) | `winget install fastfetch` |
 
-<span style="color:yellow;" >
   
-  NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
-                                                                      APP INSTALLER MSIX [From Microsoft]
-                                                              </a> 
-</span> 
+  
+```diff 
+! NOTE (windows 10): for winget you need to install App Installer (official microsoft link)-> !
+```
+<a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
+ [💾] App Installer MSIX </a>
 
+```diff                                                             
 
-  <span style="color:red;"> 
-    
-  USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL 
-    
-  </span>
+- USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL -
+```
+
         
 For other systems, refer to the [official installation guide](https://github.com/fastfetch-cli/fastfetch#installation).
 
@@ -55,9 +55,9 @@ For other systems, refer to the [official installation guide](https://github.com
 
 | System | Command |
 |:------:|:-------:|
-| Linux/macOS (current user)| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
-| Windows (current user) | ```New-Item -ItemType Directory -Force -Path "$env:APPDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:APPDATA\fastfetch\config.jsonc"``` |
-| Windows (all users {may need admin rights} )| ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
+| Linux/macOS| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
+| Windows | ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
+
 
 
 NOTE(windows): If both exist Current User config will override the all user one.
@@ -66,10 +66,11 @@ NOTE(windows): If both exist Current User config will override the all user one.
 | System | Command |
 |:------:|:-------:|
 | Linux/macOS (current user)| `wget https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt -O ~/.config/fastfetch/logo.txt` |
-| Windows (current user) | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:APPDATA\fastfetch\logo.txt"```|
-| Windows (all users {use if saved config for all users}) | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:PROGRAMDATA\fastfetch\logo.txt"```|
+| Windows | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:PROGRAMDATA\fastfetch\logo.txt"```|
 
-You can also use your personal ASCII art , this just has mine :) 
+```diff
+@@ You can also use your personal ASCII art , this just has mine :) @@
+``` 
 ## 🚀 Usage
 
 Simply type `fastfetch` in your terminal to display your system information in a beautifully formatted layout.
