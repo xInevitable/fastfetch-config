@@ -32,7 +32,7 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 | Windows (Scoop) | `scoop install fastfetch` |
 | Windows (Winget) | `winget install fastfetch` |
 
-<p align="center" style="color:yellow ; font-size:16px;>
+<p align="center" style="color:yellow; >
     NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> APP INSTALLER MSIX (From Microsoft) </a> 
 </p> 
       
