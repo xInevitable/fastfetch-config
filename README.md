@@ -32,13 +32,19 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 | Windows (Scoop) | `scoop install fastfetch` |
 | Windows (Winget) | `winget install fastfetch` |
 
-<p align="center" style="color:yellow; >
+<p style="color:yellow;" >
   
-    NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
+  NOTE (windows 10): for winget you need to install this -> <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
                                                                       APP INSTALLER MSIX [From Microsoft]
                                                               </a> 
 </p> 
-      <p align="center" style="color:red; font-size:16px;> USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL </p>
+
+
+  <p style="color:red;"> 
+    
+  USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL 
+    
+  </p>
         
 For other systems, refer to the [official installation guide](https://github.com/fastfetch-cli/fastfetch#installation).
 
