@@ -42,13 +42,16 @@ For other systems, refer to the [official installation guide](https://github.com
 | Linux/macOS (current user)| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
 | Windows (current user) | ```New-Item -ItemType Directory -Force -Path "$env:APPDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:APPDATA\fastfetch\config.jsonc"``` |
 | Windows (all users {may need admin rights} )| ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
+
 NOTE(windows): If both exist Current User config will override the all user one.
+
 ### 3. Add ASCII art
 | System | Command |
 |:------:|:-------:|
 | Linux/macOS (current user)| `wget https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt -O ~/.config/fastfetch/logo.txt` |
 | Windows (current user) | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:APPDATA\fastfetch\logo.txt"```|
 | Windows (all users {use if saved config for all users}) | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:PROGRAMDATA\fastfetch\logo.txt"```|
+
 You can also use your personal ASCII art , this just has mine :) 
 ## 🚀 Usage
 
