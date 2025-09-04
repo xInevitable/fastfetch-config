@@ -88,7 +88,7 @@
     },
     {
       "type": "display",
-      "key": "{#separator}│  {#keys}• Resolution (LG06F9)"
+      "key": "{#separator}│  {#keys}• Resolution"
     },
     {
       "type": "shell",
