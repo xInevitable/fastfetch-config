@@ -55,8 +55,8 @@ For other systems, refer to the [official installation guide](https://github.com
 
 | System | Command |
 |:------:|:-------:|
-| Linux/macOS| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc` |
-| Windows | ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
+| Linux/macOS| `mkdir -p ~/.config/fastfetch && wget -O ~/.config/fastfetch/config.jsonc https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/config-linux.jsonc` |
+| Windows | ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
 
 
 
@@ -65,8 +65,8 @@ NOTE(windows): If both exist Current User config will override the all user one.
 ### 3. Add ASCII art
 | System | Command |
 |:------:|:-------:|
-| Linux/macOS (current user)| `wget https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt -O ~/.config/fastfetch/logo.txt` |
-| Windows | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/ascii-art.txt" -OutFile "$env:PROGRAMDATA\fastfetch\logo.txt"```|
+| Linux/macOS (current user)| `wget https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/ascii-art.txt -O ~/.config/fastfetch/logo.txt` |
+| Windows | ```Invoke-WebRequest -Uri "https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/ascii-art.txt" -OutFile "$env:PROGRAMDATA\fastfetch\logo.txt"```|
 
 ```diff
 @@ You can also use your personal ASCII art , this just has mine :) @@
@@ -89,13 +89,13 @@ For detailed customization options and syntax, refer to the [Fastfetch documenta
 
 For quick access to the configuration file:
 <p align="center">
-  <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-linux.jsonc">
+  <a href="https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/config-linux.jsonc">
     <img src="https://img.shields.io/badge/Download-config--linux.jsonc-blue" alt="Download config-linux.jsonc">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/sorcereric/fastfetch-config/main/config-windows.jsonc">
+  <a href="https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/config-windows.jsonc">
     <img src="https://img.shields.io/badge/Download-config--windows.jsonc-blue" alt="Download config-windows.jsonc">
   </a>
 </p>
