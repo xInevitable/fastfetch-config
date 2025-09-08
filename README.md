@@ -59,9 +59,6 @@ For other systems, refer to the [official installation guide](https://github.com
 | Windows | ```New-Item -ItemType Directory -Force -Path "$env:PROGRAMDATA\fastfetch" ; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/xInevitable/fastfetch-config/main/config-windows.jsonc" -OutFile "$env:PROGRAMDATA\fastfetch\config.jsonc"``` |
 
 
-
-NOTE(windows): If both exist Current User config will override the all user one.
-
 ### 3. Add ASCII art
 | System | Command |
 |:------:|:-------:|
