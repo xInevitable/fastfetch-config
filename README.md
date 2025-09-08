@@ -38,8 +38,7 @@ Welcome to a stunning configuration for [Fastfetch](https://github.com/fastfetch
 ! NOTE (windows 10): for winget you need to install App Installer (official microsoft link)-> !
 ```
 <a href=https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer> 
- [💾] App Installer MSIX </a>
-
+ [💾] App Installer MSIX (learn.microsoft.com) </a>
 ```diff                                                             
 
 - USE POWERSHELL IN WINDOWS FOR WINDOWS INSTALL -
